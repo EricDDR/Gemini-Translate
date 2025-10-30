@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Tradutor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Tradutor com Gemini</h1>
+        <p>Digite o texto, escolha o idioma e deixe a IA fazer o resto.</p>
+
+        <div class="translator-box">
+            <textarea id="inputText" placeholder="Digite o texto para traduzir..."></textarea>
+            <textarea id="outputText" placeholder="A tradução aparecerá aqui..." readonly></textarea>
+        </div>
+
+        <div class="controls">
+            <select id="languageSelect">
+                <option value="Inglês">Inglês</option>
+                <option value="Espanhol">Espanhol</option>
+                <option value="Francês">Francês</option>
+                <option value="Alemão">Alemão</option>
+                <option value="Japonês">Japonês</option>
+            </select>
+            <button id="translateBtn">Traduzir</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
