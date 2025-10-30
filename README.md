@@ -94,12 +94,3 @@ A aplicação segue uma arquitetura cliente-servidor simples:
 2.  **Backend (Servidor):** A API construída com Express recebe a requisição, valida os dados e chama a API do Gemini com o prompt de tradução.
 3.  **API Gemini (Externa):** Processa o prompt e retorna o texto traduzido para o backend.
 4.  **Retorno:** O backend envia a tradução de volta para o frontend, que a exibe na tela.
-
-```mermaid
-graph TD
-    A[Usuário] -- Digita o texto e clica em "Traduzir" --> B(Frontend <br> HTML/CSS/JS);
-    B -- Envia Requisição (fetch) para /translate --> C{Backend <br> (Node.js/Express)};
-    C -- Chama a API externa com a API Key --> D[Google Gemini API];
-    D -- Retorna a tradução --> C;
-    C -- Envia a tradução em formato JSON --> B;
-    B -- Exibe o resultado para o --> A;
