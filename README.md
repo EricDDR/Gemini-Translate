@@ -1,10 +1,10 @@
-# 🤖 Gemini Tradutor
+# Gemini Tradutor
 
 Um tradutor de idiomas simples e poderoso que utiliza a API do Google Gemini para fornecer traduções contextuais e precisas. Este projeto foi desenvolvido como uma aplicação full-stack para demonstrar a integração entre frontend, backend e uma API de IA externa.
 
 ---
 
-## 🚀 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto consiste em uma aplicação web completa onde o usuário pode inserir um texto em português, selecionar um idioma de destino e receber a tradução gerada pela Inteligência Artificial do Google Gemini.
 
@@ -16,7 +16,7 @@ O objetivo principal era aplicar conceitos de desenvolvimento web, incluindo:
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 * **Tradução Inteligente:** Utiliza o modelo generativo do Gemini para traduções mais naturais.
 * **Interface Simples:** Uma interface limpa e intuitiva com áreas de texto para entrada e saída.
@@ -26,7 +26,7 @@ O objetivo principal era aplicar conceitos de desenvolvimento web, incluindo:
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 Este projeto foi construído com as seguintes tecnologias:
 
@@ -44,7 +44,7 @@ Este projeto foi construído com as seguintes tecnologias:
 
 ---
 
-## ⚙️ Como Executar o Projeto Localmente
+## Como Executar o Projeto Localmente
 
 Siga os passos abaixo para rodar o projeto na sua máquina.
 
@@ -86,7 +86,7 @@ Pronto! Agora você pode usar o tradutor localmente.
 
 ---
 
-## 🏛️ Arquitetura
+## Arquitetura
 
 A aplicação segue uma arquitetura cliente-servidor simples:
 
